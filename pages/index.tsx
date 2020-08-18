@@ -26,7 +26,7 @@ export default function Home() {
             </BackgroundVideo>
             <BackgroundDimmer></BackgroundDimmer>
             <Caption>
-              <PrimaryHeader>Maximiliano Vilchez</PrimaryHeader>
+              <PrimaryHeader>Max Vilchez</PrimaryHeader>
               <SecondaryHeader>
                 Web Developer, experiencia en JS, React, React Navite, PHP, Vue
               </SecondaryHeader>
