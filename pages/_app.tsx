@@ -21,20 +21,16 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.2;
     font-size: 1rem;
   }
-
   * {
     box-sizing: border-box;
   }
-
   a {
     color: #0070f3;
     text-decoration: none;
   }
-
   a:hover {
     text-decoration: underline;
   }
-
   img {
     max-width: 100%;
     display: block;
@@ -47,7 +43,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <GlobalStyle />
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>Dev: Maximiliano Vilchez</title>
+        <title>Maximiliano Vilchez Chiroque - Frontend Develeper</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"

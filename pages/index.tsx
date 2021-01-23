@@ -1,3 +1,4 @@
+import MainHeader from "../components/MainHeader";
 import {
   Container,
   HomeSection,
@@ -9,7 +10,6 @@ import {
   BackgroundVideo,
   BackgroundDimmer,
   Video,
-  Title,
 } from "./../layout";
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
             </Caption>
           </HomeSection>
           <AboutSection>
-            <Title>Pronto, más cosas...</Title>
+            <MainHeader />
           </AboutSection>
         </Content>
       </Container>
